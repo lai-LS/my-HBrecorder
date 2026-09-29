@@ -20,14 +20,17 @@
         }
         .redirect-message {
             font-size: 1.1rem;
-            color: #333;
+            /* 背景のダークテーマに合わせて、文字色を明るい白系に変更 */
+            color: #f8fafc; 
             margin-bottom: 30px;
             line-height: 1.8;
             font-weight: 500;
+            /* 念のためテキストに少し影をつけて可読性をさらに高める */
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
         }
         .redirect-btn {
             display: inline-block;
-            background-color: #2563eb; /* 元のアプリに合わせた青系 */
+            background-color: #2563eb;
             color: #ffffff;
             padding: 16px 32px;
             border-radius: 8px;
@@ -35,7 +38,7 @@
             font-size: 1.1rem;
             font-weight: bold;
             transition: background-color 0.2s ease, transform 0.1s ease;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         .redirect-btn:hover {
             background-color: #1d4ed8;
@@ -60,7 +63,7 @@
                     システムのリニューアルに伴い、アプリのURLが変更されました。<br>
                     現在こちらのページからはレコーディングを送信できません。<br><br>
                     お手数ですが、以下のボタンから新しいページへ移動していただき、<br>
-                    ブックマーク等の変更をお願いいたします。
+                    レコーディング送信をお願いいたします。
                 </p>
                 <a href="https://my-h-brecorder-n1htkc6ke-lai24.vercel.app/" class="redirect-btn">
                     新しいアプリページへ移動する
@@ -69,8 +72,8 @@
         </main>
 
         <footer>
-            <p>&copy;Link Academy Inc. ALL Rights Reserved. <span
-                    style="margin-left:10px; color:#a0aec0; font-size:0.85em;">Ver.2.1.3</span></p>
+            <p style="color: #cbd5e1;">&copy;Link Academy Inc. ALL Rights Reserved. <span
+                    style="margin-left:10px; color:#94a3b8; font-size:0.85em;">Ver.2.1.3</span></p>
         </footer>
     </div>
 </body>
